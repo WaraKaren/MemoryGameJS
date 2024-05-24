@@ -1,0 +1,22 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+background-color:#81657e;
+}
+
+.myHeader {
+    background-color: #9fd9b3;
+    color: #fff;
+    padding: 20px;
+}
+
+.myHeader h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+img{
+    width: 85px;
+}
