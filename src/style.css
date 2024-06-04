@@ -4,6 +4,7 @@
 
 body{
 background-color:#81657e;
+margin: 0;
 }
 
 .myHeader {
@@ -19,4 +20,16 @@ background-color:#81657e;
 
 img{
     width: 85px;
+}
+
+/* cartas */
+.container{
+    border-style: dotted;
+    border-color: blue;
+}
+
+.cardPepinillo{
+    border-style: double;
+    border-color: green;
+    margin:auto;
 }
