@@ -13,19 +13,22 @@ margin: 0;
     padding: 20px;
 }
 
-.myHeader h1 {
-    font-size: 24px;
-    margin: 0;
-}
-
 img{
     width: 85px;
 }
 
 /* cartas */
 .container{
+    /*justify-content: center; /*centra de izquierda a derecha*/
+   /*align-content: center; /*centra de rriba a abajo*/
+    place-content: center;
     border-style: dotted;
     border-color: blue;
+    display: grid;
+    grid-template-columns: 100px 100px 100px; /*por los tamaños se asume las columnas*/
+    /*row-gap: 50px; /espacio entre filas*/
+    /*column-gap: 30px; /espacio entre las columnas*/
+    gap: 30px; /*espacio entre columnas y filas*/
 }
 
 .cardPepinillo{
